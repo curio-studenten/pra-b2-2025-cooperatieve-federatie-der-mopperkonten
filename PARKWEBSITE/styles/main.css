@@ -23,6 +23,11 @@ body, html{
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 header{
   background: url('../images/park01.jpg');
   background-size: cover;
@@ -200,7 +205,7 @@ footer{
     width: 256px;
   }
 
-  .row{
+  .row {
     flex-direction: column;
   }
   .sidy-by-side{
