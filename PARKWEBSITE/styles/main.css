@@ -167,6 +167,10 @@ button{
   font-weight: bold;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .payment-option{
   height: 64px;
 }
