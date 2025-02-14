@@ -236,7 +236,12 @@ footer{
 */
 
 @media (max-width: 480px) {
-
+  .hidden-on-lg {
+    display: block;
+  }
+  .hidden-on-sm {
+    display: none;
+  }
 }
 
 /* 
@@ -249,7 +254,6 @@ footer{
     margin: 0 auto;
     width: 256px;
   }
-
   .row {
     flex-direction: column;
   }
@@ -259,6 +263,11 @@ footer{
   .sidy-by-side{
     display: flex;
     flex-direction: row;
+  }
+  #mok {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
   }
 }
 
