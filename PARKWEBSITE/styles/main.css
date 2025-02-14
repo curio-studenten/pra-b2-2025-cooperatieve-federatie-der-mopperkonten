@@ -260,9 +260,9 @@ footer{
   .row2 {
     flex-direction: column;
   }
-  .sidy-by-side{
-    display: flex;
-    flex-direction: row;
+  .side-by-side{
+    flex-direction: column;
+    text-align: center;
   }
   #mok {
     margin: 0 auto;
