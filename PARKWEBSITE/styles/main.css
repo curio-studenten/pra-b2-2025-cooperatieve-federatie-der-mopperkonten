@@ -204,7 +204,7 @@ button:hover {
 
 .side-by-side {
   display: flex;
-  justify-content: space-between; /*morgen afmaken!!!!!!!!!!!*/
+  justify-content: space-between;
   width: 100%;
 }
 
